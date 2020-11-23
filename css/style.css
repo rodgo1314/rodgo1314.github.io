@@ -370,9 +370,16 @@ figure figcaption {
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h1,
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+  -webkit-text-fill-color: rgb(
+    0,
+    0,
+    0
+  ); /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
-  color: black;
+  color: rgb(37, 0, 0);
   font-family: "Playfair Display", Georgia, serif;
 }
 #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
